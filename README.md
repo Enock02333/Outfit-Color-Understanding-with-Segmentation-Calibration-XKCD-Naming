@@ -1,6 +1,8 @@
 # Outfit Color Understanding with Segmentation, Calibration & XKCD Naming
 
-![Pipeline Architecture](results/images/Screenshot%202025-08-06%20005216.png)
+<p align="center">
+  <img src="results/images/Screenshot%202025-08-06%20005216.png" alt="Pipeline Architecture" width="600"/>
+</p>
 
 End-to-end pipeline for **detecting/segmenting fashion items**, **calibrating colors**, and **naming dominant colors** using **KMeans** mapped to human-friendly **XKCD colors**.  
 Supports **image**, **video**, **webcam/USB/DSLR (Canon)** inputs and **device-wise threshold verification**.  
