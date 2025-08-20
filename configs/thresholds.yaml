@@ -1,0 +1,24 @@
+# Central place to manage thresholds used by verification scripts
+# You can select a profile with --profile <name>
+profiles:
+  cctv:
+    person_conf: 0.75      # 0.70–0.85 works best per your experiments
+    person_iou: 0.50
+    color_conf: 0.45       # 0.40–0.50 stabilized color & reduced overlap
+    imgsz: 640
+  camera:
+    person_conf: 0.80
+    person_iou: 0.50
+    color_conf: 0.45
+    imgsz: 640
+  phone:
+    person_conf: 0.75
+    person_iou: 0.50
+    color_conf: 0.45
+    imgsz: 640
+# Fallback defaults if profile not specified
+default:
+  person_conf: 0.50
+  person_iou: 0.50
+  color_conf: 0.40
+  imgsz: 640

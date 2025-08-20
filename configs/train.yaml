@@ -1,0 +1,19 @@
+# Ultralytics YOLO-Seg data config
+# Edit the three paths below to point to your YOLO-format dataset
+path: data/yolo_seg                # root of dataset
+train: images/train                # images
+val: images/val
+test: images/test
+
+# Class names (edit to match your dataset)
+names:
+  0: sunglass
+  1: hat
+  2: jacket
+  3: shirt
+  4: pants
+  5: shorts
+  6: skirt
+  7: dress
+  8: bag
+  9: shoe
