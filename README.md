@@ -98,9 +98,7 @@ pip install matplotlib==3.8.4 seaborn==0.13.2 scikit-learn==1.4.2 pandas==2.2.2 
 
 We estimate a **3×3 linear color correction matrix** $M$ that maps sensor RGB to a reference RGB:
 
-$$
-\mathbf{c}_{\text{calib}} = M \, \mathbf{c}_{\text{raw}}
-$$
+![formula](https://latex.codecogs.com/svg.latex?\mathbf{c_{calib}}=M\mathbf{c_{raw}})
 
 Given measured chart colors $I_i \in \mathbb{R}^3$ and reference colors $R_i \in \mathbb{R}^3$, solve:
 
