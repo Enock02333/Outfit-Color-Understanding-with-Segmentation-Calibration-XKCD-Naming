@@ -1,0 +1,13 @@
+ultralytics==8.2.103
+opencv-python==4.10.0.84
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-learn==1.4.2
+pillow==9.5.0
+tqdm==4.66.1
+scipy==1.11.3
+git+https://github.com/facebookresearch/segment-anything.git@main#egg=segment-anything
+torch
+torchvision
