@@ -75,9 +75,7 @@ pip install matplotlib==3.8.4 seaborn==0.13.2 scikit-learn==1.4.2 pandas==2.2.2 
 │  └─ 09_calibration_fit.py      # estimate 3×3 color correction matrix
 ├─ results/
 │  ├─ images/                    # annotated images
-│  ├─ videos/                    # processed videos
 │  ├─ plots/                     # analytics plots
-│  └─ reports/                   # CSVs, verification logs
 ├─ README.md
 └─ requirements.txt
 ```
