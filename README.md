@@ -55,10 +55,6 @@ pip install matplotlib==3.8.4 seaborn==0.13.2 scikit-learn==1.4.2 pandas==2.2.2 
 ├─ configs/
 │  ├─ train.yaml                 # YOLO-Seg data spec
 │  └─ thresholds.yaml            # device-wise thresholds (optional)
-├─ data/
-│  ├─ raw/                       # raw images/videos (Kaggle/DeepFashion2/custom)
-│  ├─ sam/                       # SAM masks & polygons
-│  └─ yolo/                      # YOLO-Seg formatted dataset
 ├─ models/
 │  ├─ best.pt                    # trained YOLO-Seg weights
 │  └─ checkpoints/               # intermediate checkpoints
